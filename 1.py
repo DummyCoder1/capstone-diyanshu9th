@@ -97,8 +97,8 @@ while True:
             state="over"
     if state=="over":
               
-            over_text=score_font.render("Game Over", False, (255,255,0))  
-            screen.blit(over_text,[230,250])   
+       over_text=score_font.render("Game Over", False, (255,255,0))  
+       screen.blit(over_text,[230,250])   
 
     pygame.display.update() 
     clock.tick(30) 
