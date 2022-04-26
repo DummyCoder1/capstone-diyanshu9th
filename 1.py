@@ -95,7 +95,7 @@ while True:
             groundy=-125
         if  w1.rect2.colliderect(ghost.rect) or w2.rect2.colliderect(ghost.rect):
             state="over"
-        if state=="over":
+    if state=="over":
               
             over_text=score_font.render("Game Over", False, (255,255,0))  
             screen.blit(over_text,[230,250])   
